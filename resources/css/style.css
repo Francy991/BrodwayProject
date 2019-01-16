@@ -3,17 +3,48 @@ body {
   font-family: Helvetica;
 }
 
-#header {
-  font-size: 70px;
-  font-weight: bold;
-  color: white-; <!--change to colo white-->
-  background-image: url("");
+.Background-image {
+  font-family: Helvetica;
+  background-image: url('../images/building.png');
+  color: white;
 }
+
+.Background-image h1 {
+  font-size: 70px;
+}
+
+a {
+  color: inherit;
+ }
 
 p {
   font-size: 18px;
 }
 
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 14px;
+}
+
 #footer {
   text-align: left;
+  background-color: dimgray;
+  color: white;
+}
+
+#copyright {
+  font-size: 11px;
 }
