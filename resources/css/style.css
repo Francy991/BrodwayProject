@@ -1,5 +1,17 @@
 body {
   text-align: center;
+  font-family: Helvetica;
+}
+
+#header {
+  font-size: 70px;
+  font-weight: bold;
+  color: white-; <!--change to colo white-->
+  background-image: url("");
+}
+
+p {
+  font-size: 18px;
 }
 
 #footer {
