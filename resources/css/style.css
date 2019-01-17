@@ -1,11 +1,18 @@
 body {
   text-align: center;
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
 }
 
 .Background-image {
   font-family: Helvetica;
   background-image: url('../images/building.png');
+  background-size: cover;
   color: white;
 }
 
@@ -21,13 +28,25 @@ p {
   font-size: 18px;
 }
 
-h2 {
-  font-size: 32px;
-  font-weight: bold;
+.supporting {
+  text-align: center;
 }
 
-h3 {
+.supporting h2 {
+  font-size: 32px;
+}
+
+.supporting h3 {
   font-size: 23px;
+}
+
+.supporting-item p {
+  font-size: 14px;
+}
+
+.Background-image h3 {
+  font-size: 23px;
+  font-weight: bold;
 }
 
 h4 {
@@ -37,6 +56,10 @@ h4 {
 
 h5 {
   font-size: 14px;
+}
+
+.contact h3 {
+  font-weight: bold;
 }
 
 #footer {
